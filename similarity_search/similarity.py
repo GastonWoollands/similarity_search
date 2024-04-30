@@ -1,5 +1,5 @@
 from sentence_transformers import SentenceTransformer
-from sentence_transformers.utils import semantic_search
+from sentence_transformers.util import semantic_search
 from typing import List
 
 def similarity_search(texts_q: List[str], texts_k: List[str], model, top_k = 3, score= 0):
