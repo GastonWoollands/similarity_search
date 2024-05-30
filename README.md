@@ -37,8 +37,8 @@ print(results["text3"])  # Output: {"text3a"  {"text3b": 0.6}
 
 # Instalation
 
-To use the similarity_search function, you will need to install PyTorch and your chosen model. You can do this using pip:
-pip install torch
+To use the similarity_search function, you will need to install:
+- requirements.txt
 
 # License
 
